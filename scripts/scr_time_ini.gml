@@ -1,0 +1,17 @@
+blink=0
+state=0
+player=1
+dist=2
+washere=1
+statenum[0,0]=0
+xpos[0,0]=xstart ///32000 par colonne...
+lifenum[0,0]=0
+ypos[0,0]=ystart
+ainum[0,0]=0
+step=1
+t=0
+tt=0
+dead=false
+life=1
+ai=-1
+type=0

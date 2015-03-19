@@ -1,0 +1,1 @@
+tile_image=image_index

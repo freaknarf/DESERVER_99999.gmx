@@ -1,0 +1,25 @@
+
+if left dir=0; ////tres important de le placer apres "is shooting" pour tirer en haut en avancant
+if right dir=1;
+
+
+
+
+
+if ((place_meeting (x,y+1,oMB)))
+{
+   grounded=true
+   if jump=0
+if (place_meeting (x,y,oMB))
+grounded=false}
+
+
+if place_meeting(x,y+1,obj_w)///izgrounded?
+
+   grounded=true //yes if +1pixel down=wall 
+ 
+//negation des 2
+/*if ((!place_meeting (x,y+sprite_height/2+1,oMB))and( (!place_meeting(x,y+sprite_height/2+1,obj_w))))
+{grounded=false}  */
+if ((!place_meeting (x,y+1,oMB))and( (!place_meeting(x,y+1,obj_w))))
+{grounded=false}  
